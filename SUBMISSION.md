@@ -1,19 +1,16 @@
 # Submission kit: Challenge 6, Urban Air Quality Assistant
 
-
 ## Public GitHub Repository Link
 
 ```
 https://github.com/keertimehta25/Smog_shield
 ```
 
-
 ## Project Deployed Link
 
 ```
 https://smog-shield.onrender.com/
 ```
-
 
 ## Describe the changes/updates made in the deployed version
 
@@ -27,7 +24,6 @@ The deployed version runs as one production service: Express serves the built Re
 Google Gemini API (GEMINI_MODEL, default gemini-3.6-flash, with automatic failover to four backup Gemini models), called server-side in server/ai/geminiService.ts. 1) Plan generation: from a household or community profile, live Open-Meteo AQI, the 24-hour forecast and engine-computed impact figures, Gemini writes routines, best-time-to-go-out advice, indoor air hacks and sustainable alternatives, each with a 'why it helps' explanation. 2) Follow-up chat answering questions such as which mask to buy. Output is JSON validated with Zod, and a number firewall rejects any figure Gemini invents. User text is treated as untrusted data. If Gemini fails, a rule-based advisor takes over.
 ```
 
-## Demo video script 
+## Demo video script
 
-## LinkedIn post 
-
+## LinkedIn post
